@@ -1,0 +1,69 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background: #f3f4f6;
+    font-family: 'Courier New', Courier, monospace;
+}
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+.profile-card{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 300px;
+}
+.website-link{
+    text-decoration: none;
+    color: #007bff;
+    cursor: pointer;
+}
+.profile-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid #007bff;
+    margin-bottom: 10px;
+}
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.edit-btn{
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #fff;
+    padding: 1rem 2rem;
+    cursor: pointer;
+}
+.follow-btn{
+    background-color: rgb(17, 232, 17);
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #fff;
+    padding: 1rem 2rem;
+    cursor: pointer;
+}
+.job-title{
+    font-weight: 700;
+    font-size: 1rem;
+}
+.location{
+    font-weight: 900;
+}
+.card{
+    width: 45%;
+}
