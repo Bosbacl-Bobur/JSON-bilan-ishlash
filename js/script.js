@@ -11,7 +11,7 @@ fetch(API)
         card.classList.add('card')
         card.innerHTML=`
         <div class="profile-card">
-                <img src="./minimalism-dark-scary-face-smile-tooth-hd-wallpaper-preview.png" alt="">
+                <img src="./banker.jpg" alt="">
                 <h2>${user.name}</h2>
                 <p class="job-title">${user.email}</p>
                 <a target href='https:  ' class="website-link">Frontend Developer</a>
