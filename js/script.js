@@ -6,7 +6,7 @@ fetch(API)
     return data.json()
 }).then((data)=>{
     data.forEach((user) => {
-        console.log(data);
+        // console.log(data);
         const card=document.createElement('div')
         card.classList.add('card')
         card.innerHTML=`
@@ -14,6 +14,7 @@ fetch(API)
                 <img src="./banker.jpg" alt="">
                 <h2>${user.name}</h2>
                 <p class="job-title">${user.email}</p>
+                <p class="job-title">${user.address}</p>
                 <a target href='https:  ' class="website-link">Frontend Developer</a>
                 <p class="location">🚏 San Francisco, Usa</p>
                 <div class="buttons">
@@ -25,5 +26,3 @@ fetch(API)
         container.appendChild(card)
     });
 })
-    
-
